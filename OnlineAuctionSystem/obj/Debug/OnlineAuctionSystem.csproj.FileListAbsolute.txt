@@ -1,0 +1,59 @@
+c:\users\hassan\documents\visual studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\bin\Debug\OnlineAuctionSystem.exe.config
+c:\users\hassan\documents\visual studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.csprojResolveAssemblyReference.cache
+c:\users\hassan\documents\visual studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.Properties.Resources.resources
+c:\users\hassan\documents\visual studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.csproj.GenerateResource.Cache
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\bin\Debug\OnlineAuctionSystem.exe
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\bin\Debug\OnlineAuctionSystem.pdb
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_LOGIN.resources
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.exe
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.pdb
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_MAIN.resources
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_ADMIN.resources
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_ADD_ADMIN.resources
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_BIDDER.resources
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_SELLER.resources
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_REGISTER.resources
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_EDIT_PROFILE.resources
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_VIEW_USER.resources
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_CEATE_SESSION.resources
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_VIEW_SESSIONS_ADMIN.resources
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_VIEW_SESSIONS_SELLER.resources
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_ADD_ITEM_SELLER.resources
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_VIEW_SUB_SESSION_DETAILS.resources
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_VIEW_NOTIFICATION_STARTED_SESSIONS.resources
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_VIEW_SESSION_ITEM_DEATAILS_AND_BID_BIDDER.resources
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_VIEW_BID_DETAILS_END_SESSION.resources
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_REPORT_SESSION_RESULTS.resources
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_VIEW_NOTIFICATION_SESSIONS_RESULTS.resources
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_PAY_WINNER.resources
+C:\Users\Hassan\Documents\Visual Studio 2015\Projects\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_INVOICE.resources
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\bin\Debug\OnlineAuctionSystem.exe.config
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\bin\Debug\OnlineAuctionSystem.exe
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\bin\Debug\OnlineAuctionSystem.pdb
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.csprojResolveAssemblyReference.cache
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_ADD_ADMIN.resources
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_ADD_ITEM_SELLER.resources
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_ADMIN.resources
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_BIDDER.resources
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_CEATE_SESSION.resources
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_EDIT_PROFILE.resources
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_INVOICE.resources
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_LOGIN.resources
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_MAIN.resources
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_PAY_WINNER.resources
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_REGISTER.resources
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_REPORT_SESSION_RESULTS.resources
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_SELLER.resources
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_VIEW_BID_DETAILS_END_SESSION.resources
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_VIEW_NOTIFICATION_SESSIONS_RESULTS.resources
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_VIEW_NOTIFICATION_STARTED_SESSIONS.resources
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_VIEW_SESSIONS_ADMIN.resources
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_VIEW_SESSIONS_SELLER.resources
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_VIEW_SESSION_ITEM_DEATAILS_AND_BID_BIDDER.resources
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_VIEW_SUB_SESSION_DETAILS.resources
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_VIEW_USER.resources
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.Properties.Resources.resources
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.csproj.GenerateResource.Cache
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.exe
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.pdb
+E:\College\2_Levels\Level Three\Second term\Sw2\Project\OUR PROJECT\Phase_2\OnlineAuctionSystem\OnlineAuctionSystem\obj\Debug\OnlineAuctionSystem.PresentationLayer.FORM_VIEW_NOTIFICATION_WITH_WINNER.resources

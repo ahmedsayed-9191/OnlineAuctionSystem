@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{836A0B71-97A7-4EA1-A0B8-7A715EA2713B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OnlineAuctionSystem</RootNamespace>
+    <AssemblyName>OnlineAuctionSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Auction_SystemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Auction_SystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BussinessLogicLayer\Admin.cs" />
+    <Compile Include="BussinessLogicLayer\AuctionSession.cs" />
+    <Compile Include="BussinessLogicLayer\Bayment.cs" />
+    <Compile Include="BussinessLogicLayer\Bid.cs" />
+    <Compile Include="BussinessLogicLayer\Bidder.cs" />
+    <Compile Include="BussinessLogicLayer\Invoice.cs" />
+    <Compile Include="BussinessLogicLayer\Item.cs" />
+    <Compile Include="BussinessLogicLayer\Seller.cs" />
+    <Compile Include="BussinessLogicLayer\User.cs" />
+    <Compile Include="BussinessLogicLayer\Validation.cs" />
+    <Compile Include="DataAccessLayer\DataBaseHelper.cs" />
+    <Compile Include="PresentationLayer\FORM_ADD_ADMIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_ADD_ADMIN.Designer.cs">
+      <DependentUpon>FORM_ADD_ADMIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_ADD_ITEM_SELLER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_ADD_ITEM_SELLER.Designer.cs">
+      <DependentUpon>FORM_ADD_ITEM_SELLER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_ADMIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_ADMIN.Designer.cs">
+      <DependentUpon>FORM_ADMIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_BIDDER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_BIDDER.Designer.cs">
+      <DependentUpon>FORM_BIDDER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_CEATE_SESSION.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_CEATE_SESSION.Designer.cs">
+      <DependentUpon>FORM_CEATE_SESSION.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_EDIT_PROFILE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_EDIT_PROFILE.Designer.cs">
+      <DependentUpon>FORM_EDIT_PROFILE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_INVOICE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_INVOICE.Designer.cs">
+      <DependentUpon>FORM_INVOICE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_LOGIN.Designer.cs">
+      <DependentUpon>FORM_LOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_MAIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_MAIN.Designer.cs">
+      <DependentUpon>FORM_MAIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_PAY_WINNER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_PAY_WINNER.Designer.cs">
+      <DependentUpon>FORM_PAY_WINNER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_REGISTER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_REGISTER.Designer.cs">
+      <DependentUpon>FORM_REGISTER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_REPORT_SESSION_RESULTS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_REPORT_SESSION_RESULTS.Designer.cs">
+      <DependentUpon>FORM_REPORT_SESSION_RESULTS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_SELLER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_SELLER.Designer.cs">
+      <DependentUpon>FORM_SELLER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_VIEW_BID_DETAILS_END_SESSION.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_VIEW_BID_DETAILS_END_SESSION.Designer.cs">
+      <DependentUpon>FORM_VIEW_BID_DETAILS_END_SESSION.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_VIEW_NOTIFICATION_SESSIONS_RESULTS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_VIEW_NOTIFICATION_SESSIONS_RESULTS.Designer.cs">
+      <DependentUpon>FORM_VIEW_NOTIFICATION_SESSIONS_RESULTS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_VIEW_NOTIFICATION_STARTED_SESSIONS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_VIEW_NOTIFICATION_STARTED_SESSIONS.Designer.cs">
+      <DependentUpon>FORM_VIEW_NOTIFICATION_STARTED_SESSIONS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_VIEW_NOTIFICATION_WITH_WINNER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_VIEW_NOTIFICATION_WITH_WINNER.Designer.cs">
+      <DependentUpon>FORM_VIEW_NOTIFICATION_WITH_WINNER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_VIEW_SESSIONS_ADMIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_VIEW_SESSIONS_ADMIN.Designer.cs">
+      <DependentUpon>FORM_VIEW_SESSIONS_ADMIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_VIEW_SESSIONS_SELLER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_VIEW_SESSIONS_SELLER.Designer.cs">
+      <DependentUpon>FORM_VIEW_SESSIONS_SELLER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_VIEW_SESSION_ITEM_DEATAILS_AND_BID_BIDDER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_VIEW_SESSION_ITEM_DEATAILS_AND_BID_BIDDER.Designer.cs">
+      <DependentUpon>FORM_VIEW_SESSION_ITEM_DEATAILS_AND_BID_BIDDER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_VIEW_SUB_SESSION_DETAILS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_VIEW_SUB_SESSION_DETAILS.Designer.cs">
+      <DependentUpon>FORM_VIEW_SUB_SESSION_DETAILS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_VIEW_USER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationLayer\FORM_VIEW_USER.Designer.cs">
+      <DependentUpon>FORM_VIEW_USER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PresentationLayer\FORM_ADD_ADMIN.resx">
+      <DependentUpon>FORM_ADD_ADMIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FORM_ADD_ITEM_SELLER.resx">
+      <DependentUpon>FORM_ADD_ITEM_SELLER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FORM_ADMIN.resx">
+      <DependentUpon>FORM_ADMIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FORM_BIDDER.resx">
+      <DependentUpon>FORM_BIDDER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FORM_CEATE_SESSION.resx">
+      <DependentUpon>FORM_CEATE_SESSION.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FORM_EDIT_PROFILE.resx">
+      <DependentUpon>FORM_EDIT_PROFILE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FORM_INVOICE.resx">
+      <DependentUpon>FORM_INVOICE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FORM_LOGIN.resx">
+      <DependentUpon>FORM_LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FORM_MAIN.resx">
+      <DependentUpon>FORM_MAIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FORM_PAY_WINNER.resx">
+      <DependentUpon>FORM_PAY_WINNER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FORM_REGISTER.resx">
+      <DependentUpon>FORM_REGISTER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FORM_REPORT_SESSION_RESULTS.resx">
+      <DependentUpon>FORM_REPORT_SESSION_RESULTS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FORM_SELLER.resx">
+      <DependentUpon>FORM_SELLER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FORM_VIEW_BID_DETAILS_END_SESSION.resx">
+      <DependentUpon>FORM_VIEW_BID_DETAILS_END_SESSION.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FORM_VIEW_NOTIFICATION_SESSIONS_RESULTS.resx">
+      <DependentUpon>FORM_VIEW_NOTIFICATION_SESSIONS_RESULTS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FORM_VIEW_NOTIFICATION_STARTED_SESSIONS.resx">
+      <DependentUpon>FORM_VIEW_NOTIFICATION_STARTED_SESSIONS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FORM_VIEW_NOTIFICATION_WITH_WINNER.resx">
+      <DependentUpon>FORM_VIEW_NOTIFICATION_WITH_WINNER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FORM_VIEW_SESSIONS_ADMIN.resx">
+      <DependentUpon>FORM_VIEW_SESSIONS_ADMIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FORM_VIEW_SESSIONS_SELLER.resx">
+      <DependentUpon>FORM_VIEW_SESSIONS_SELLER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FORM_VIEW_SESSION_ITEM_DEATAILS_AND_BID_BIDDER.resx">
+      <DependentUpon>FORM_VIEW_SESSION_ITEM_DEATAILS_AND_BID_BIDDER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FORM_VIEW_SUB_SESSION_DETAILS.resx">
+      <DependentUpon>FORM_VIEW_SUB_SESSION_DETAILS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\FORM_VIEW_USER.resx">
+      <DependentUpon>FORM_VIEW_USER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Auction_SystemDataSet.xsc">
+      <DependentUpon>Auction_SystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Auction_SystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Auction_SystemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Auction_SystemDataSet.xss">
+      <DependentUpon>Auction_SystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
